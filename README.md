@@ -16,7 +16,7 @@ An example artwork from @artpicschannel ("The Red Tree House", Vincent Van Gogh)
 
 Using fastai and what I learned in the [Practical Deep Learning](http://course.fast.ai/about.html) class, I trained CNNs using both ResNet-34 and VGG19 architectures to accomplish the aforementioned tasks.  With predicting curators, the CNNs reached 80% accuracy.  To put this into perspective, I, as a human who can tell that embroidered art was most likely done by a woman and that the prominent Impressionist painters were men, only achieved 85% accuracy.  This amazed me.
 
-With predicting whether I'd like an artwork, the CNNs reached 81% accuracy. Again, this was very impressive to me.  I can't describe very well at all what commonalities the artworks I like have. 
+With predicting whether I'd like an artwork, the CNNs reached 67% accuracy. This was fairly impressive to me.  I can't describe very well at all what commonalities the artworks I like have. 
 
 For more details, please look at the jupyter notebook.  The labels folder are dinky adhoc scripts I used to help me label data very quickly and avoid any labeling cross-contamination.  (I labeled 1000 images from @womensart1 first, which means I knew they were posted from that account and thus could not include them in my curation benchmark.)
 
